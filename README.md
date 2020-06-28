@@ -1,13 +1,18 @@
-# vscode-gcc-cmake
-VSCode Boilerplate for building &amp; debugging w/ GCC &amp; Cmake
+# VSCode CMake Boilerplate
+VSCode Boilerplate for building &amp; debugging w/ cmake
 
-# Step 0: Installation
+Tested with:
+- GCC/GDB
+- Clang/GDB
+- MSVC
+
+## Step 0: Installation
 
 1. Install 
-1. Install VSCode extensions:
+2. Install VSCode extensions:
 	- C++ Extension
 	- CMake Extension
-1. Select CMake Kit
+3. Select CMake Kit
    - Ctrl+Shift+P and "CMake: Select a kit"
 
 ## Step 1: Configure

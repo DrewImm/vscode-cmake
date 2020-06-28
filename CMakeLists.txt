@@ -1,6 +1,6 @@
-# GCC Test
+# VSCode CMake Test
 cmake_minimum_required(VERSION 3.0)
-project(gcc_test)
+project(cmake_test)
 
 ## C++ Standard: C++17
 set(CMAKE_CXX_STANDARD 17)
@@ -18,10 +18,10 @@ file(GLOB SOURCES src/*)
 add_subdirectory(mylibrary)
 
 ## Output
-add_executable(gcc_test ${SOURCES})
+add_executable(cmake_test ${SOURCES})
 
 ## Link Libraries
-target_link_libraries(gcc_test PUBLIC mylibrary)
-target_include_directories(gcc_test PUBLIC
+target_link_libraries(cmake_test PUBLIC mylibrary)
+target_include_directories(cmake_test PUBLIC
     mylibrary/    
 )
