@@ -25,6 +25,4 @@ Click `Build` in the bottom left status bar
 
 ## Step 3: Debug
 
-Copy the `launch.json` from this project into your project's `.vscode/` directory.
-
 Press F5 to begin debugging!
